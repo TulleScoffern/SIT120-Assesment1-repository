@@ -1,1 +1,70 @@
+<!doctype html>
 
+<html>
+<head>
+<title>Page Title</title>
+</head>
+
+<style>
+body {
+  background-color: black;
+}
+
+h1 {color: white; text-align: center;}
+
+p {color: white; text-align: center;}
+
+h2 {color: white; text-align: center;}
+
+table, th, td {
+  border: 1px solid;
+  color: green;
+  align: center;
+}
+
+</style>
+
+<body>
+
+<h1>Page Heading</h1>
+<p>This the text for the page.</p>
+
+<h2>This is a Image<h2>
+
+<img src="Landscape_Background_12.jpg" alt="Fields" width="384" height="216">
+
+
+<h2>What is the Date?<h2>
+
+<button type="button"
+onclick="document.getElementById('date').innerHTML = Date()">
+Click Me</button>
+
+<p id="date"></p>
+
+
+<button type="button"
+onclick="document.getElementById('Number').innerHTML = Math.floor(Math.random() * 10)">
+Click Me</button>
+
+<h2 id="Number"</h2>
+
+
+<table>
+  <tr>
+    <th>Name<th>
+    <th>Phone Number<th>
+  </tr>
+  <tr>
+    <th>Tulle<th>
+    <th>0432766657<th>
+  </tr>
+  <tr>
+    <th>Felicity<th>
+    <th>0413802275<th>
+  </tr>
+</table>
+
+
+</body>
+</html>
